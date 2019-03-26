@@ -69,7 +69,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EF6 employees data.sql" />
+    <Content Include="EmployeeV3.sql" />
+    <Content Include="FileInfo.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

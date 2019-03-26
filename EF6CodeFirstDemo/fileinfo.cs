@@ -19,6 +19,9 @@ namespace EF6CodeFirstDemo
         public string MTime { get; set; }
         public string ATime { get; set; }
         public string Md5 { get; set; }
+        public string Extension { get; set; }
+        public string MimeType { get; set; }
+        public string SecurityClassification { get; set; }
 
         public Employee Employee { get; set; }
 
